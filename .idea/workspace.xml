@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1072e60-d92d-4d22-a9b6-edf821559c08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/com/contentbig/hello/graphql/api/Query.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/com/contentbig/hello/graphql/api/Resolvers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/com/contentbig/hello/graphql/model/HelloPayloadGQO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/io/github/kobylynskyi/bikeshop/graphql/mappers/BikeMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="graphql-java-server-codegen-example" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="distribution" type="c8890929:TasksNode$1" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -70,11 +75,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/graphql/hello" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.graphql-java-server-codegen-example [build]">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/graphql/hello" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/graphql/hello" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.graphql-java-server-codegen-example [graphqlCodegen1]">
     <configuration name="graphql-java-server-codegen-example [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -113,8 +126,28 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="graphql-java-server-codegen-example [graphqlCodegen1]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="graphqlCodegen1" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.graphql-java-server-codegen-example [graphqlCodegen1]" />
         <item itemvalue="Gradle.graphql-java-server-codegen-example [build]" />
         <item itemvalue="Gradle.graphql-java-server-codegen-example [clean]" />
       </list>
@@ -131,24 +164,44 @@
       <option name="presentableId" value="Default" />
       <updated>1588923910334</updated>
     </task>
+    <task id="LOCAL-00001" summary="support Directory path set to graphqlSchemaPaths">
+      <created>1589021403174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589021403174</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="support Directory path set to graphqlSchemaPaths" />
+    <option name="LAST_COMMIT_MESSAGE" value="support Directory path set to graphqlSchemaPaths" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1588924721721">
+    <state x="356" y="134" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1589014380116">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1588924721720" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1588924721720">
+    <state x="356" y="134" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.877@0.23.1440.877" timestamp="1589014380116" />
+    <state x="29" y="164" key="CommitChangelistDialog2" timestamp="1589021402934">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1588924721720" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1588924721719">
+    <state x="29" y="164" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1589021402934" />
+    <state width="1396" height="470" key="GridCell.Tab.0.bottom" timestamp="1589020842221">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1588924721719" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1588924721720">
+    <state width="1396" height="470" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589020842221" />
+    <state width="1396" height="470" key="GridCell.Tab.0.center" timestamp="1589020842220">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1588924721720" />
+    <state width="1396" height="470" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589020842220" />
+    <state width="1396" height="470" key="GridCell.Tab.0.left" timestamp="1589020842219">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="470" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589020842219" />
+    <state width="1396" height="470" key="GridCell.Tab.0.right" timestamp="1589020842220">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="470" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589020842220" />
   </component>
 </project>
