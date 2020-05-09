@@ -1,0 +1,4 @@
+
+type HelloPayload {
+    hello:String
+}

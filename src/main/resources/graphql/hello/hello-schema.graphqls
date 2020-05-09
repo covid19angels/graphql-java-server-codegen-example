@@ -1,8 +1,5 @@
 
 extend type Query {
     hello(who:String ): [HelloPayload]
-}
-
-type HelloPayload {
-    hello:String
+    world(who:String ): [WorldPayload]
 }

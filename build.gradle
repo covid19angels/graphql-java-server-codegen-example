@@ -8,6 +8,13 @@ plugins {
 
 import com.contentbig.graphql.server.codegen.gradle.GraphqlCodegenGradleTask
 
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url 'https://repo.spring.io/plugins-release' }
+}
+
+
 mainClassName = "io.github.kobylynskyi.bikeshop.Application"
 
 dependencies {
@@ -42,10 +49,10 @@ graphqlCodegen {
 }
 
 task graphqlCodegen1(type: GraphqlCodegenGradleTask) {
-    graphqlSchemaPaths = ["$projectDir/src/main/resources/hello-schema.graphqls".toString()]
+    graphqlSchemaPaths = ["$projectDir/src/main/resources/graphql/hello".toString()]
     outputDir = new File("$buildDir/generated")
-    apiPackageName = "com.contentbig.hello.graphql.api"
-    modelPackageName = "com.contentbig.hello.graphql.model"
+    apiPackageName = "com.contentbig.graphql.hello.generated.api"
+    modelPackageName = "com.contentbig.graphql.hello.generated.model"
     apiPackageImports = ["java.util","java.util"]
     modelPackageImports = ["java.util","java.util"]
     customTypesMapping = [DateTime: "java.util.Date"]
